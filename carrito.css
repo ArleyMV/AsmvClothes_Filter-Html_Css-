@@ -1,0 +1,101 @@
+:root{
+    --colorfondo: #423939;
+}
+
+body{
+    display: grid;
+    margin:0vw 2vw 2vw 2vw;
+    grid-template-columns:30% 60%;
+    background-color: var(--colorfondo);
+}
+
+#logoheader{
+    width:30vw;
+}
+
+header{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:30vw;
+}
+
+#navegador li{
+    list-style:none;
+}
+
+#navegador li a{
+    text-decoration: none;
+    color:white;
+}
+
+#navegador li{
+    margin-top:3vh;
+    background-color: rgb(43, 31, 31);
+    padding:0.5vw;
+    width:10vw;
+    border-radius:0.5vw;
+}
+
+#cards{
+    border:2px solid white;
+    padding:3vw;
+    display: flex;
+    flex-direction: column;
+    row-gap:2vw;
+    color: white;
+    justify-content: center;
+    height:50vh;
+    width:100%;
+    overflow-y:scroll;
+    scrollbar-width:thin;
+    margin:2vw;
+}
+
+#navegador #carrito a{
+    color: #bdff23;
+}
+input{
+    width:5vw;
+    background-color: #bdff23;
+    color: black;
+}
+
+.infoprod{
+    display: grid;
+    grid-template-columns:15% 15% 15% 15% 10% 10%;
+    background-color: black;
+    column-gap:3vw;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2vw;
+}
+
+.card{
+    width:100%;
+}
+
+.imagencard{
+    width:10vw;
+    border-radius: 2vw;
+}
+
+#compra{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    background-color: #bdff23;
+    padding:1vw;
+    border-radius:2vw;
+}
+
+#compras{
+    display: flex;
+    justify-content:end;
+    column-gap:2vw;
+}
+
+
+.infoprod img{
+    width:5vw;
+}

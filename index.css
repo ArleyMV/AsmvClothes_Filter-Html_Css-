@@ -1,0 +1,97 @@
+:root{
+    --colorfondo: #423939;
+}
+
+body{
+    display: grid;
+    margin:2vw;
+    grid-template-columns:30% 60%;
+    background-color: var(--colorfondo);}
+
+#logoheader{
+    width:30vw;
+}
+
+header{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    width:30vw;
+}
+
+#navegador li{
+    list-style:none;
+}
+
+#navegador li a{
+    text-decoration: none;
+    color:white;
+}
+
+#navegador li{
+    margin-top:3vh;
+    background-color: rgb(43, 31, 31);
+    padding:0.5vw;
+    width:10vw;
+    border-radius:0.5vw;
+}
+
+#cards{
+    border:2px solid white;
+    padding:3vw;
+    display: grid;
+    grid-template-columns:30% 30% 30%;
+    column-gap:3%;
+    row-gap:3%;
+    color: white;
+    justify-content: center;
+    width:100%;
+    height:80vh;
+    overflow-y:scroll;
+    scrollbar-width:thin;
+}
+
+.imagencard{
+    width:100%;
+    height:25vh;
+    border-radius:2vw 2vw 0vw 0vw;
+}
+
+.card{
+    border:1px solid white;
+    border-radius:2vw;
+    display: flex;
+    flex-direction:column;
+    height:100%;
+    font-size:1vw;
+    background-color: black;
+}
+
+.card a{
+    text-decoration:none;
+    color:#bdff23;
+    background-color: #423939;
+    padding:0.5vw;
+    border-radius:2vw;
+}
+
+.card div{
+    height:100%;
+    display:flex;
+    align-items:end;
+    justify-content: center;
+    margin-bottom:2vh;
+}
+
+.infoprod{
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding:1vw;
+}
+
+#navegador #productos a{
+    color: #bdff23;
+}
